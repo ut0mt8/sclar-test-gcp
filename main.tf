@@ -1,6 +1,6 @@
 resource "google_compute_instance" "scalr-instance" {
   name                      = "scalr-instance"
-  machine_type              = "e2-small"
+  machine_type              = "e2-micro"
   project                   = var.project
   zone                      = var.default_zone
   allow_stopping_for_update = true
