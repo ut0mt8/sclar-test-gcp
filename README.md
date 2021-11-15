@@ -1,1 +1,1 @@
-# sclar-test-gcp
+# scalr-gcp
